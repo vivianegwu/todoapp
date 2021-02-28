@@ -109,7 +109,7 @@ function clearAllTask(e) {
 
 function removeTask(e) {
   if (e.target.parentElement.classList.contains('close')) {
-    if (confirm('Are you sure?')) {
+    if (confirm('Task will be deleted.')) {
       e.target.parentElement.parentElement.remove();
 
       //remove task from LS

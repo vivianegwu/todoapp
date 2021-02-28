@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .container {
   background-color:#EA0F48;
 }
@@ -9,14 +12,36 @@
   font-weight: 700;
 }
 .input-content {
+  align-content: center;
+  width:570px;
   padding: 10px;
-  width: 600px;
 }
+@media(min-width: 767px){
+  .input-content {
+    padding: 10px;
+    width: 400px;
+    margin-left:0px;
+   
+  }
+}
+@media(max-width: 767px){
+  .input-content {
+    padding: 10px;
+    width: 200px;
+    margin-left:0px;
+   
+  }
+}
+
 .clearTask {
   background-color:#EA0F48!important;
-  margin-left:113px;
   margin-top:10px;
+  color:#fff!important;
+  font-size: 16px!important;
+  font-weight: bold !important;
 }
+
+
 .btn-styling {
   padding: 10px;
   width: 100px;
@@ -56,3 +81,6 @@
   margin-left: 20px;
   text-decoration: line-through;
 }
+
+
+
