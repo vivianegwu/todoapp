@@ -1,0 +1,58 @@
+.container {
+  background-color:#EA0F48;
+}
+.heading {
+  font-size: 20px;
+  padding: 10px;
+  color: #fff;
+  margin-left: 40%;
+  font-weight: 700;
+}
+.input-content {
+  padding: 10px;
+  width: 600px;
+}
+.clearTask {
+  background-color:#EA0F48!important;
+  margin-left:113px;
+  margin-top:10px;
+}
+.btn-styling {
+  padding: 10px;
+  width: 100px;
+  border: 1px solid #fff;
+}
+.btn-styling:hover {
+  background-color: #bbb;
+}
+
+.d-flex{
+  margin-top: 40px;
+}
+
+.heading-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+}
+
+.alert {
+  margin-bottom: 0 !important;
+  font-size: 18px;
+}
+.alert-light:hover {
+  background-color: #bbb;
+}
+.alert-dark {
+  background-color: #888 !important;
+}
+.fas.fa-check {
+  color: #fff;
+}
+.new-task {
+  margin-left: 40px;
+}
+.done-task {
+  margin-left: 20px;
+  text-decoration: line-through;
+}
